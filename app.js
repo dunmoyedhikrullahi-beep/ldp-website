@@ -1,4 +1,4 @@
-const DESTINATION_EMAIL = "REPLACE_WITH_LDP_OFFICIAL_EMAIL@example.com";
+const DESTINATION_EMAIL = "Lekandunmoye@gmail.com";
 
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelector(".nav-links");
@@ -64,13 +64,7 @@ document.querySelector("#contactForm").addEventListener("submit", event => {
     `Name: ${name}\nEmail: ${email}\nInterest: ${interest}\n\nMessage:\n${message}`
   );
 
-  if (DESTINATION_EMAIL.includes("REPLACE_WITH")) {
-    document.querySelector("#formSuccess").textContent =
-      "Demo mode: replace DESTINATION_EMAIL in app.js with LDP's official email before publishing.";
-    return;
-  }
-
-  window.location.href = `mailto:${DESTINATION_EMAIL}?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:${DESTINATION_EMAIL}?subject=${subject}&body=${body}`;
 });
 
 document.querySelector("#year").textContent = new Date().getFullYear();

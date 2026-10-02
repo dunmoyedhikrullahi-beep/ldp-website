@@ -5,7 +5,7 @@ LDP is presented as a Nigerian surveying and real estate agency specializing in 
 ## Before publishing
 - Replace demonstration listings with verified Nigerian properties.
 - Add real locations, prices, photos and availability.
-- Replace `REPLACE_WITH_LDP_OFFICIAL_EMAIL@example.com` in `app.js` with LDP’s official email.
+- Replace `Lekandunmoye@gmail.com` in `app.js` with LDP’s official email.
 - Verify all company contact details.
 
 ## GitHub Pages
